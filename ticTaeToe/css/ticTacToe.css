@@ -1,0 +1,21 @@
+#main {
+  text-align: center;
+}
+
+#ticTacToe {
+  display: table;
+  height: 510px; width: 510px;
+  margin: auto;
+}
+
+.row {
+  display: table-row;
+  width: 100%;
+}
+
+.cell {
+	border: 1px solid;
+  height: 170px; width: 170px;
+	display: table-cell;
+  font-size: 120px;
+}

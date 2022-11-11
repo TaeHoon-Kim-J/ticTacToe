@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/ticTacToe.css">
+    <script src="js/ticTacToe.js"></script>
+    <title>TicTaeToe</title>
+</head>
+<body onload="firstAttack()">
+  <div id = "main">
+    <h1>TicTacToe</h1>
+    <div id="ticTacToe">
+      <div class="row">
+        <div class="cell" id="block0" onclick="checkSelect(0)"></div>
+        <div class="cell" id="block1" onclick="checkSelect(1)"></div>
+        <div class="cell" id="block2" onclick="checkSelect(2)"></div>
+      </div>
+      <div class="row">
+        <div class="cell" id="block3" onclick="checkSelect(3)"></div>
+        <div class="cell" id="block4" onclick="checkSelect(4)"></div>
+        <div class="cell" id="block5" onclick="checkSelect(5)"></div>
+      </div>
+      <div class="row">
+        <div class="cell" id="block6" onclick="checkSelect(6)"></div>
+        <div class="cell" id="block7" onclick="checkSelect(7)"></div>
+        <div class="cell" id="block8" onclick="checkSelect(8)"></div>
+      </div>
+    </div>
+    <h2 id="caption">당신이 'O'입니다.</h2>
+  <div>
+</body>
+</html>
